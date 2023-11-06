@@ -127,7 +127,7 @@ build_preview:
   stage: build
   cache:
     - *hugo_cache
-    - *yarn_cache_pull_push
+    #- *yarn_cache_pull_push
   environment: "preview"
   variables:
     URL: ${PREVIEW_DOMAIN}
