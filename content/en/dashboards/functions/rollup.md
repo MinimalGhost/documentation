@@ -12,6 +12,8 @@ Every metric query is inherently aggregated. However, appending the `.rollup()` 
 
 **Note**: The Distribution Metric type does not have a rollup `aggregator` parameter. This metric type is aggregated both in time and space. See the documentation on [rollup for distributions with percentiles][2] to learn more.
 
+Test
+
 The function takes two parameters, `<AGGREGATOR>` and optionally `<INTERVAL>`: `.rollup(<AGGREGATOR>,<INTERVAL>)` or `.rollup(<AGGREGATOR>)`.
 
 | Parameter  | Description                                                                                                     |
